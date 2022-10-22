@@ -3,7 +3,7 @@ Mötesprotokoll 20/10/22
 Närvarande:
 Maia Ivraeus
 William Carlström
-
+Nejirwan Ramadan
 
 1. Vi diskuterar hur vi ska starta upp projektet, och kommer överens om att intervjuer med potentiella användare borde komma först.
 
