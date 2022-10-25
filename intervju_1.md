@@ -17,23 +17,23 @@ Repar även med polare
 
 ## Beteende
 
-#### Vad är de viktigaste sakerna du eller andra personer skulle behöva utföra på en musikbutiks hemsida?
+#### Vad är de viktigaste sakerna du eller andra personer skulle behöva utföra på en musikbutiks webbsida?
 
 Lätt att hitta till produkterna man letar efter
 
-#### Hur skulle du beskriva dina tidigare erfarenheter med andra musikbutikers hemsidor?  
+#### Hur skulle du beskriva dina tidigare erfarenheter med andra musikbutikers webbsida?  
 
 Jag tycker det har fungerat bra, inga problem
 
-#### Hur ofta skulle du se dig själv använda en sådan här hemsida?  
+#### Hur ofta skulle du se dig själv använda en sådan här webbsida?  
 
 Några gånger i månaden
 
-#### Hur tar du dig oftast in på denna typen av hemsida?  
+#### Hur tar du dig oftast in på denna typen av webbsida?  
 
 Mest googla, men även blandat
 
-#### Vilken sorts enhet använder du när du besöker denna typen av hemsida?  
+#### Vilken sorts enhet använder du när du besöker denna typen av webbsida?  
 
 Dator
 
