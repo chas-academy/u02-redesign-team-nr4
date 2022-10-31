@@ -17,6 +17,12 @@
     <meta property="og:title" content="JAM.se - Din musikaffär på nätet!" />
     <meta property="og:description" content="JAM är en musikaffär med både nytt och begagnat, med butiker i Stockholm kan du handla både fysiskt i butik, och på webb." />
     <meta property="og:image" content="https://www.jam.se/images/jam_og_site.jpg" />
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css" >
 
     <link type="text/plain" rel="author" href="https://www.jam.se/humans.txt" />
     <link rel="stylesheet" href="/style/reset.css" />
@@ -26,6 +32,23 @@
 </head>
 <body>
     <nav>
+        <div>
+        <ahref><img src="./images/logo.png" alt=""></ahref>
+        <!-- nav från min u01 -->
+        <nav id="fixed" class="navlinks">
+            <div><a href="#projects">Projects</a></div>
+            <div><a href="#resume">Resume</a></div>
+        </nav>
+        <nav class="mobilenav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+            </div>
+        </nav>
+        <!-- nav från min u01 -->
+    </div>
         <ul>
             <li class="active"><a href="/">Startsidan</a></li>
             <li><a href="/studio/">Studio</a></li>
@@ -68,5 +91,8 @@
     <section>/gitarrbyggarcentrum/</section>
     <div></div>
     <section>/hyraljudljus/</section>
+    <footer>
+        <p>© 1996-2022 Jam</p>
+    </footer>
 </body>
 </html>
