@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 .mobilenav {
   text-align: right;
   width: 100%;
@@ -350,8 +351,8 @@ body {
   color: blueviolet;
   text-align: center;
   /*         @include mobile {
-            font-size: 1.5rem;
-          } */
+      font-size: 1.5rem;
+    } */
 }
 .about__container--left h2 {
   font-size: 4rem;
@@ -428,17 +429,17 @@ body {
   color: blueviolet;
   text-align: center;
   /* 
-        @include mobile {
-          font-size: 1.5rem;
-        } */
+  @include mobile {
+    font-size: 1.5rem;
+  } */
 }
 .price__container--left h2 {
   font-size: 4rem;
   color: #222121;
   text-align: center;
   /*       @include mobile {
-          font-size: 2rem;
-        } */
+    font-size: 2rem;
+  } */
 }
 .price__container--img {
   height: auto;
@@ -451,8 +452,8 @@ body {
   font-weight: bold;
   text-align: center;
   /*       @include mobile {
-          font-size: 1.5rem;
-        } */
+    font-size: 1.5rem;
+  } */
 }
 .price__container--right {
   text-align: center;
@@ -661,7 +662,9 @@ body {
   padding-top: 60vh;
   padding-bottom: 37%;
 }
-.signup__container input[type=text], .signup__container select, .signup__container textarea {
+.signup__container input[type=text],
+.signup__container select,
+.signup__container textarea {
   width: 50%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -794,4 +797,105 @@ body {
 .signup__container--img {
   height: 100%;
   width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li,
+a,
+button {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #ff6e55;
+}
+
+.navlinks > div a {
+  text-decoration: none;
+  color: #e6f1ff;
+  font-size: 16px;
+}
+
+.navlinks > div a:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+  font-size: 18px;
+}
+
+.navlinks > div {
+  margin: 1em;
+}
+
+#fixed {
+  position: fixed;
+  z-index: 1;
+}
+
+.mobilenav {
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: #ff6e55;
+}
+.mobilenav .menu {
+  margin: 0 30px 0 0;
+}
+.mobilenav .menu a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  line-height: 70px;
+  clear: right;
+}
+.mobilenav .menu img {
+  text-align: left;
+}
+.mobilenav label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  display: none;
+  float: right;
+}
+.mobilenav #toggle {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navlinks {
+    display: none;
+  }
+  .mobilenav label {
+    cursor: pointer;
+    display: block !important;
+    color: white;
+  }
+  .mobilenav .menu {
+    margin: 70px 30px 0 0;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    background-color: #1d232d;
+    display: none;
+  }
+  .mobilenav .menu a {
+    display: block;
+    border-bottom: 1px solid #e6f1ff;
+    margin: 0;
+  }
+  .mobilenav #toggle:checked + .menu {
+    display: block;
+  }
 }/*# sourceMappingURL=styles.css.map */
