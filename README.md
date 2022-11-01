@@ -21,7 +21,7 @@ Ett förslag är att endast ha 4 flikar, och att de informativa delarna (bloggen
 
 3. Vi saknar en person i gruppen och efterlyser honom på Discord.
 
-
+<br><br>
 
 Mötesprotokoll 31/10/22
 
@@ -37,3 +37,28 @@ Maia Ivraeus
 	Samme – Börja med HTML
 
 Möte igen imorgon 01/11/22
+
+<br><br>
+
+Mötesprotokoll 01/11/22
+
+Närvarande:
+Maia Ivraeus
+
+
+1. Vi kollar runt så att alla fortfarande vet vad de ska göra. William blir tilldelad att hjälpa till att förkoda, och Ismail ska hjälpa Neji bli klar med wireframen.
+
+2. Vi går igenom det som är klart med wireframen. Det som vi kommer överens om är:
+<br>
+Ta bort bloggen och rescensionerna.
+<br><br>
+Footern ska enbart ha sociala medier-ikoner; Facebook, Instagram och Spotify.
+<br><br>
+Vi ska behålla Google Maps i kontaktrutorna tillsammans med adresser och mailadresser.
+<br><br>
+Prova att vinkla upp Jam-loggan så den blir rak, för att se om det ser bättre ut.
+<br><br>
+I naven ska butikens/rubrik 1's meny även innehålla tjänster, medan rubrik 2 blir enbart About.
+<br><br>
+
+3. Alla bör skapa issues med uppgifterna som de håller på med, så att alla enkelt kan se vad alla gör.
