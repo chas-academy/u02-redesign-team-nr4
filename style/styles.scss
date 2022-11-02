@@ -142,6 +142,74 @@ button {
 
 }
 
+.category {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px 0 100px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    min-width: 200px;
+    max-width: 200px;
+    border-radius: 1em;
+    text-align: center;
+    margin: 10px 10px 10px;
+    background-color: #1d232d;
+  }
+
+  a {
+    display: block;
+    font-size: 20px;
+    color: aliceblue;
+    padding: 40px 0 40px;
+  }
+
+  li:nth-of-type(1) {
+    background-image: url(/productImages/cache/grid/A115085.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li:nth-of-type(2) {
+    background-image: url(/productImages/cache/grid/piano.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li:nth-of-type(3) {
+    background-image: url(/productImages/cache/grid/teahub.io-electric-guitar-wallpaper-675223.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li:nth-of-type(4) {
+    background-image: url(/productImages/cache/grid/istockphoto-535230325-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li:nth-of-type(5) {
+    background-image: url(/productImages/cache/grid/5bd1831799094-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  li:nth-of-type(6) {
+    background-image: url(/productImages/cache/grid/ovrigt.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
 @media (max-width: 900px) {
   .navlinks {
     display: none;
@@ -176,125 +244,6 @@ button {
 
     #toggle:checked+.menu {
       display: block;
-    }
-  }
-
-  .category {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-
-    li {
-      border-radius: 1em;
-      text-align: center;
-      margin: 10px 0 10px;
-      padding: 40px 8px 40px;
-      background-color: #1d232d;
-      font-size: 20px;
-      color: aliceblue;
-    }
-
-    li:nth-of-type(1) {
-      background-image: url(/productImages/cache/grid/A115085.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(2) {
-      background-image: url(/productImages/cache/grid/piano.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(3) {
-      background-image: url(/productImages/cache/grid/teahub.io-electric-guitar-wallpaper-675223.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(4) {
-      background-image: url(/productImages/cache/grid/istockphoto-535230325-612x612.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(5) {
-      background-image: url(/productImages/cache/grid/5bd1831799094-wallpaper-preview.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(6) {
-      background-image: url(/productImages/cache/grid/ovrigt.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-  }
-
-}
-
-@media (max-width: 320px) {
-  .category {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-
-    li {
-      border-radius: 1em;
-      text-align: center;
-      margin: 10px 0 10px;
-      padding: 40px 8px 40px;
-      background-color: #1d232d;
-      font-size: 20px;
-      color: aliceblue;
-    }
-
-    li:nth-of-type(1) {
-      background-image: url(/productImages/cache/grid/A115085.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(2) {
-      background-image: url(/productImages/cache/grid/piano.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(3) {
-      background-image: url(/productImages/cache/grid/teahub.io-electric-guitar-wallpaper-675223.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(4) {
-      background-image: url(/productImages/cache/grid/istockphoto-535230325-612x612.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(5) {
-      background-image: url(/productImages/cache/grid/5bd1831799094-wallpaper-preview.jpg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-    }
-
-    li:nth-of-type(6) {
-      background-image: url(/productImages/cache/grid/ovrigt.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
     }
   }
 
