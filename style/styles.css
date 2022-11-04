@@ -148,14 +148,24 @@ footer div.social-media-links a:hover svg circle {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  padding-bottom: 15em;
+}
+.card div:last-child img {
+  height: 285px;
+  width: 400px;
 }
 .card .productlist {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  margin-right: 0.5em;
-  margin-top: 0.5em;
+  margin: 0.5em;
+  color: #222121;
+}
+.card .productlist a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   color: #222121;
 }
 .card .productlist h2 {
@@ -181,6 +191,35 @@ footer div.social-media-links a:hover svg circle {
   padding: 77px 0;
 }
 
+#h2withyellow {
+  background-color: #FFD900;
+}
+
+.section2 {
+  position: relative;
+  background-color: rgb(255, 217, 0);
+}
+
+.curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(178% + 1.3px);
+  height: 242px;
+}
+
+.curve .shape-fill {
+  fill: #FFD900;
+}
+
 @media (max-width: 1230px) {
   .productlist > div {
     flex: 1 0 50%;
@@ -189,9 +228,18 @@ footer div.social-media-links a:hover svg circle {
     flex: 0 1 100%;
   }
 }
+@media (max-width: 767px) {
+  .curve svg {
+    width: calc(178% + 1.3px);
+    height: 84px;
+  }
+}
 @media (max-width: 400px) {
   .card .productlist {
-    margin-right: 0;
+    margin: 0;
+  }
+  .card .productlist div {
+    margin: 0.3em;
   }
 }
 * {
