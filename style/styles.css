@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 .mobilenav {
   text-align: right;
   width: 100%;
@@ -250,6 +251,128 @@ footer div.social-media-links a:hover svg circle {
     margin: 0.3em;
   }
 }
+nav.subhead {
+  background-color: rgb(255, 217, 0);
+  padding-top: 5ch;
+}
+
+h3.subheading {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1ch;
+}
+
+li.OmOss,
+a.OmOss,
+button.OmOss {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navlinksOmOss {
+  padding: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #222121;
+}
+.navlinksOmOss div {
+  margin: 1em;
+}
+.navlinksOmOss div div a.OmOss {
+  text-decoration: none;
+  color: #e6f1ff;
+  font-size: 16px;
+}
+.navlinksOmOss div div a.OmOss:hover {
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transition: ease-in-out 0.3s;
+  font-size: 18px;
+}
+.navlinksOmOss button.OmOss {
+  padding: 9px 25px;
+  background-color: rgb(255, 217, 0);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.navlinksOmOss button.OmOss:hover {
+  background-color: rgb(255, 227, 67);
+}
+.navlinksOmOss .nav_linksOmOss {
+  list-style: none;
+}
+.navlinksOmOss .nav_linksOmOss li.OmOss {
+  display: inline-block;
+  padding: 0px 10px;
+}
+.navlinksOmOss .nav_linksOmOss li.OmOss a.OmOss {
+  color: #e6f1ff;
+  transition: all 0.3s ease 0s;
+}
+.navlinksOmOss .nav_linksOmOss li.OmOss a.OmOss:hover {
+  color: rgb(255, 217, 0);
+}
+
+ul.nav_linksOmOss li.OmOss ol.dropdown {
+  background: rgb(255, 217, 0);
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 840px;
+  top: 50px;
+  display: none;
+  padding: 5px;
+  outline: 2px solid #222121;
+}
+
+ol.dropdown li.dropdwn a.dropit {
+  color: #222121;
+  font-size: 100%;
+  line-height: 2rem;
+}
+
+ul.nav_linksOmOss li.OmOss:hover > ol.dropdown,
+ul.nav_linksOmOss li.OmOss:focus > ol.dropdown ul.nav_lingsOmOss li.OmOss ol.dropdown:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul.nav_linksOmOss li.OmOss ol.dropdown li.dropdwn {
+  clear: both;
+  width: 100%;
+  color: #222121;
+  border: solid;
+}
+
+#fixedOmOss {
+  position: fixed;
+  z-index: 1;
+}
+
+div.title {
+  text-align: center;
+}
+div.title h2 {
+  font-size: 50px;
+  line-height: 100%;
+  padding: 30px 5%;
+}
+div.title p {
+  font-size: 20px;
+  -webkit-text-decoration: -5px underline;
+          text-decoration: -5px underline;
+  line-height: 80%;
+  padding: 3px;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Poppins";
