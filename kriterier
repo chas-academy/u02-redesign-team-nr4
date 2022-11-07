@@ -1,0 +1,163 @@
+u02 redesign
+Inlämningsdatum 20 nov av 23.59 Poäng 0 Lämnar in en textimatningsruta eller en länk till webbplats
+Grupprojekt: Redesign
+Den här uppgiften går ut på att i grupp ta fram, prototypa och implementera en alternativ design av en befintlig webbplats. Sidan som ni ska undersöka och implementera alternativ layout till är Gitarrbutiken webbplats: https://www.jam.se/Länkar till en extern sida. alternativt en inom gruppen vald sida (som ni kanske länge stört er på) som har blivit godkänd att redesigna av ansvarig lärare, detta måste väljas första veckan i projektet.
+
+Krav (1-7)
+1. En redesignad version av https://www.jam.se/Länkar till en extern sida.
+2. Arbeta i GitHub classroom i rätt team (obs skapa ett team till er grupp och utse en person som gör detta innan övriga går in och väljer team). Projektet ska vara klart senast 20 november kl 23:59
+https://classroom.github.com/a/vw3mlWNuLänkar till en extern sida.
+
+3. Innehåll
+Eran design ska innehålla en ny design för ca 13 landningssidor från en huvudmeny i vilket det ska ingå olika typer av landningssidor, t.ex. något formulär, textfokuserade och några med lite olika media.
+
+För JAM så innebär det att er design innehåller ny design för följande sidor:
+
+Startsida
+
+Om oss
+
+Butiker
+
+Kontakta JAM
+
+Så funkar det
+
+Gitarrbyggarcentrum
+
+Någon/några av ”Studio”, ”Synth och Piano”, ”Stränginstrument”... och 5 underrubriker till denna varav minst 1 produktlisting och 1 produktsida.
+
+4. HTML och CSS
+En webbsida som fungerar i
+
+Senaste Chrome
+
+Senaste Firefox
+
+Senaste Safari
+
+Senaste Microsoft Edge
+
+Enheter som kommer testas:
+
+PC desktop (upplösning 1920 x 1280)
+
+Apple iPhone 12/13 Pro (390x844)
+
+Sidan ska vara skapad helt från grunden med egen HTML & CSS men får gärna ta inspiration från den befintliga strukturen (inga ramverk är alltså tillåtna), ingen JavaScript är tillåten
+
+Ni ska använda preprocessorn Sass i projektet för att hantera CSS
+
+rekommendationer:
+
+bryt ner Sass-filerna i mindre delar så att ni inte återupprepar er
+
+ha tydlig struktur för hur ni arbetar tillsammans med Sass, dvs bestäm på förhand vilka delar av sidans layout och design som ska finnas var i projektet och hur de ska sammanlänkas.
+
+5. Tillgänglighet
+Är grundläggande tillgänglighetsanpassad (WCAG (A)-nivå)
+
+6. UX och Design
+Designen av själva hemsidan är valfri men följande delar måste finnas med:
+
+Gör intervjuer med minst två personer (fler är bättre) som använder eller potentiellt skulle kunna använda webbplatsen (t ex en musiker)
+
+skapa minst två personas/beteendetyper utifrån intervjumaterialet
+
+skapa user stories utifrån personan
+
+dokumentera eran process och resultat i en designdokumentation
+
+En grov designskiss (wireframes, görs med papper och penna, ritprogram eller Figma, wireframes ska göras för både mobil och desktop vy)
+
+En detaljerad designskiss (i Figma eller liknande)
+
+Responsiv design (dvs fungera i minst båda de upplösningar som testas)
+
+Statiskt kontaktformulär (ska ej leda någonstans)
+
+Designen ska vara utformad utifrån riktlinjer inom användbarhet och design för webb
+
+7. Arbeta enligt agila projektmetoder
+Ni måste arbeta enligt någon form av agil projektmetod (detta kommer att följas upp)
+
+ 
+
+Rekommendationer
+
+kom fram till hur ni arbetar tillsammans med ert projekthanteringssystem, vi använder: GitHub projects
+
+utifrån uppgiften skapa en backlog med user stories (detta ska egentligen göras av produktägaren, men för övningens skull får ni göra detta själva i den här uppgiften)
+
+övergripande planering av projektet
+
+minst 4 sprintar
+
+vad ska ni ha som mål i varje sprint för att kunna/hinna bli klara med projektet
+
+I varje sprint:
+
+sprintplanering
+
+avstämning minst 3 ggr/vecka (daily scrum eller liknande)
+
+demo i varje sprints slut
+
+retrospektiv i varje sprints slut
+
+Arbete som ska göras i början av projektet:
+Kom överens om projektstruktur och agilt arbetssätt (sprintar osv)
+
+planera in möten
+
+planera in intervjuer för UX-arbetet
+
+sätt upp projektstruktur för hur ni:
+
+versionshanterar
+
+hanterar filer (filstruktur)
+
+skriver HTML och SASS (vilka delar av layouten befinner sig var?)
+
+Inlämning
+Uppgiften ska lämnas in till Canvas av varje person i teamet. I inlämningen ska ni ha med en länk till ert repository på github classroom. Ert repository ska innehålla en markdown fil i projektets root-mapp som heter README.md och som innehåller länkar till allt relevant material och era designstudier för projektet (inklusive era designskisser (viktigt) samt gärna protokoll/mötesanteckningar och annat som kan vara av intresse vid rättning).
+
+Betygsättning
+Den här inlämningen ger underlag för följande färdigheter i kursmålen. Där inlämningen helt motsvarar och går att bedöma för de mål som står med svart text och bara delvis de som står med brun text.
+
+Kursmål som ingår i uppgiften:
+
+
+Webbutveckla responsivt och browseranpassat med HTML och CSS enligt aktuella webbstandarder [1]
+Utveckla CSS genom en preprocessor [1]
+Optimera och validera HTML & CSS [1]
+Webbutveckla med anpassning för tillgänglighet [1]
+Arbeta i projekt enligt agila metoder [10]
+Hantera inkommande ärenden/issues i ett projekt [12]
+Ta ansvar för ledning av individers och gruppers utveckling i arbetet [2]
+Ta fram grundläggande grafik och design för webb [8]
+Tillämpa riktlinjer inom användbarhet [7]
+Ta fram prototyper [8]
+Ta fram personas och målgruppsanalyser [8]
+Använda empiriska metoder för att utveckla användbarheten i ett system [9]
+Arbeta genom ett terminalinterface [15]
+Skapa bra kodstruktur och dokumentation i ett projekt [16]
+Arbeta med versionshantering både enskilt och inom ett team [17]
+
+Godkänd
+För att nå Godkänd som betyg på denna inlämning ska du:
+
+utföra alla färdigheter utifrån de kursmål som ingår i uppgiften med gott handlag
+
+ni bör även ha lagt tonvikt på följande delar:
+
+responsiv och tillgänglighetsanpassad HTML och CSS
+
+struktur och versionshantering av kod i projektet utifrån att ni arbetar i team
+
+kunna implementera agila projektmetoder i hela projektet
+
+ta fram en design som utgår från ett användarperspektiv
+
+test
