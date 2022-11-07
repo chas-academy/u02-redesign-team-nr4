@@ -3,6 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 .mobilenav {
   text-align: right;
   width: 100%;
@@ -371,6 +372,194 @@ div.title p {
           text-decoration: -5px underline;
   line-height: 80%;
   padding: 3px;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.page-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  margin-left: 10vw;
+  padding: 0;
+  font-size: 16px;
+}
+
+.page-nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2em;
+  width: 45vw;
+  padding: 0;
+  margin: 0;
+  padding-left: 10vw;
+}
+.page-nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+}
+.page-nav ul li #selected {
+  background-color: #222121;
+  color: rgb(255, 217, 0);
+}
+.page-nav ul li a {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.page-nav ul li a:visited {
+  color: black;
+}
+.page-nav ul li #next {
+  margin-left: 2em;
+}
+.page-nav ul li #previous {
+  margin-right: 2em;
+}
+
+.product-list-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.product-list-info .product-quantity-info {
+  margin-top: 2em;
+  margin-left: 3em;
+  font-weight: lighter;
+}
+.product-list-info select {
+  font-family: "Poppins";
+  border: 0;
+  padding: 0.5em;
+  border-radius: 50px;
+  background-color: #222121;
+  color: white;
+  text-align: center;
+  margin-right: 35vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.content .products {
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  padding-top: 3em;
+  padding-bottom: 10em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: left;
+}
+.content aside {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 0.7;
+  max-width: 25em;
+  min-width: 20em;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+  margin-bottom: 10em;
+}
+.content aside h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.content aside hr {
+  width: 80%;
+  margin-bottom: 1em;
+}
+.content aside p {
+  margin-top: 5em;
+  margin-bottom: 7em;
+}
+.content aside article {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.content aside article img {
+  width: 3em;
+}
+.content aside article span {
+  margin-left: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content aside article span h3 {
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+.content aside article span p {
+  font-weight: lighter;
+  margin: 0;
+}
+
+.product-card {
+  flex: 1;
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+  min-width: 10em;
+  min-height: 15em;
+  max-height: 15em;
+  max-width: 10em;
+  justify-content: center;
+  align-items: center;
+}
+.product-card img {
+  height: 60%;
+  width: 40%;
+}
+.product-card h3 {
+  margin-top: 0.3em;
+  font-size: 1em;
+}
+.product-card p {
+  margin-top: 0.3em;
+  margin-left: 74%;
+  margin-right: 1%;
+  width: 25%;
+  font-size: 1em;
+  font-weight: lighter;
+}
+.product-card a {
+  margin-top: 0.7em;
+}
+.product-card button {
+  cursor: pointer;
+  border: 0;
+  padding: 0.3em;
+  font-weight: lighter;
+  border-radius: 0%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #222121;
+  color: white;
 }
 
 * {
