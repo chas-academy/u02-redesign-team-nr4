@@ -1,3 +1,9 @@
+
+body{
+    font-family: "Poppins";
+}
+
+
 //Rubrik och underrubrik
 
 div.title{
@@ -5,16 +11,78 @@ div.title{
     
     h2 {
         font-size: 50px;
-        line-height: 100%;
+        line-height: 90%;
         padding: 30px 5%;
         
     }
 
     p {
-        font-size: 20px;
-        text-decoration: -5px underline;
-        line-height: 80%;
+        font-size: 15px;
+        line-height: 50%;
+        height: 20px;
         padding: 3px;
+        display: inline-block;
+        border-bottom: solid black 2px;
+        padding-right: 100px;
+        padding-left: 100px;
     }
 }
+//
 
+//Bild och Rubrik med Text
+div.topsect img{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 796px;
+    height: 458px;
+    left: 154px;
+    top: 420px;
+}
+
+div.topsect h3{
+        position: absolute;
+        width: 309px;
+        height: 42px;
+        left: 1034px;
+        top: 439px;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 34px;
+        border-bottom: solid black 2px;
+        display: inline-block;
+        
+    }
+    
+div.topsect  p{
+        position: absolute;
+        width: 741px;
+        height: 717px;
+        left: 1036px;
+        top: 526px;
+        font-style: normal;
+        font-size: 13px;
+        line-height: 40px;
+        /* or 123% */
+        letter-spacing: 0.1em;
+    }
+//
+
+//VAD VI GÖR
+div.secondsect{
+    text-align: center;
+
+    h3{
+    width: 100%; 
+   border-bottom: 2px solid #000; 
+   line-height: 0.1em;
+   margin: 650px 0 90px; 
+   font-size: 20px;
+
+    }
+
+    h3 span{
+    background:#fff; 
+    padding:  90px;
+    }
+}
