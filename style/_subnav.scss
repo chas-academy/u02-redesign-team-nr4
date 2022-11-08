@@ -15,83 +15,12 @@ h3.subheading{
   padding-bottom: 1ch;
 }
 
-//MAIN NAVBAR
 
-li.OmOss,
-a.OmOss,
-button.OmOss {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.navlinksOmOss {
-  padding: 5px 3%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  width: 100%;
-  background-color: $dark;
-
-  div {
-    margin: 1em;
-
-    div a.OmOss {
-      text-decoration: none;
-      color: #e6f1ff;
-      font-size: 16px;
-    }
-
-    div a.OmOss:hover {
-      border-bottom: 3px solid rgb(255, 255, 255);
-      transition: ease-in-out .3s;
-      font-size: 18px;
-    }
-  }
-
-  button.OmOss {
-    padding: 9px 25px;
-    background-color: $logocolor;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-  }
-
-  button.OmOss:hover {
-    background-color: rgb(255, 227, 67);
-  }
-
-  .nav_linksOmOss {
-    list-style: none;
-
-    li.OmOss {
-      display: inline-block;
-      padding: 0px 10px;
-
-      a.OmOss {
-        color: #e6f1ff;
-        transition: all 0.3s ease 0s;
-      }
-
-      a.OmOss:hover {
-        color: $logocolor
-      }
-    }
-  }
-}
-
-#fixedOmOss {
-  position: fixed;
-  z-index: 1;
-}
 
 
 //DROPDOWN MENY-Sortiment
 
-ul.nav_linksOmOss li.OmOss ol.dropdown {
+/*ul.nav_linksOmOss li.OmOss ol.dropdown {
     background: $logocolor;
     opacity: 0;
     position: absolute;
@@ -167,5 +96,5 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
     border: solid;
 
   }
-   //DROPDOWN MENY-Om Oss
+   //DROPDOWN MENY-Om Oss*/
 
