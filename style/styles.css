@@ -320,6 +320,11 @@ button.OmOss {
   color: rgb(255, 217, 0);
 }
 
+#fixedOmOss {
+  position: fixed;
+  z-index: 1;
+}
+
 ul.nav_linksOmOss li.OmOss ol.dropdown {
   background: rgb(255, 217, 0);
   opacity: 0;
@@ -332,10 +337,10 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
   outline: 2px solid #222121;
 }
 
-ol.dropdown-sort li.dropdown a.dropit {
-  color: #222121;
+ol.dropdown li.dropdown a.dropit {
   font-size: 100%;
-  line-height: 2rem;
+  line-height: 1rem;
+  color: #222121;
 }
 
 ul.nav_linksOmOss li.OmOss:hover > ol.dropdown,
@@ -349,7 +354,6 @@ ul.nav_lingsOmOss li.OmOss ol.dropdown:hover {
 ul.nav_linksOmOss li.OmOss ol.dropdown li.dropdown {
   clear: both;
   width: 100%;
-  color: #222121;
   border: solid;
 }
 
@@ -365,10 +369,10 @@ ul.nav_linksOmOss li.OmOss ol.dropdown-2 {
   outline: 2px solid #222121;
 }
 
-ol.dropdown-sort li.dropdown a.dropit-2 {
-  color: #222121;
+ol.dropdown-2 li.dropdown-2 a.dropit-2 {
   font-size: 100%;
-  line-height: 2rem;
+  line-height: 1rem;
+  color: #222121;
 }
 
 ul.nav_linksOmOss li.OmOss:hover > ol.dropdown-2,
@@ -382,13 +386,7 @@ ul.nav_lingsOmOss li.OmOss ol.dropdown-2:hover {
 ul.nav_linksOmOss li.OmOss ol.dropdown-2 li.dropdown-2 {
   clear: both;
   width: 100%;
-  color: #222121;
   border: solid;
-}
-
-#fixedOmOss {
-  position: fixed;
-  z-index: 1;
 }
 
 body {
@@ -404,7 +402,7 @@ div.title h2 {
   padding: 30px 5%;
 }
 div.title p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 50%;
   height: 20px;
   padding: 3px;
@@ -420,20 +418,22 @@ div.topsect img {
   width: 796px;
   height: 458px;
   left: 154px;
-  top: 420px;
+  top: 400px;
+  border: solid #222121;
 }
 
 div.topsect h3 {
   position: absolute;
-  width: 309px;
+  width: 709px;
   height: 42px;
   left: 1034px;
-  top: 439px;
+  top: 409px;
   font-style: italic;
   font-size: 20px;
   line-height: 34px;
   border-bottom: solid black 2px;
   display: inline-block;
+  text-align: center;
 }
 
 div.topsect p {
@@ -444,24 +444,83 @@ div.topsect p {
   top: 526px;
   font-style: normal;
   font-size: 13px;
-  line-height: 40px;
+  line-height: 25px;
   /* or 123% */
-  letter-spacing: 0.1em;
 }
 
 div.secondsect {
   text-align: center;
 }
 div.secondsect h3 {
-  width: 100%;
-  border-bottom: 2px solid #000;
+  width: 90%;
+  border-bottom: 3px solid #000;
   line-height: 0.1em;
-  margin: 650px 0 90px;
-  font-size: 20px;
+  margin: 650px 60px 70px;
+  font-size: 26px;
+  font-style: italic;
+  text-transform: capitalize;
 }
 div.secondsect h3 span {
   background: #fff;
   padding: 90px;
+}
+div.secondsect ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 50px 100px;
+  flex-wrap: wrap;
+}
+div.secondsect li {
+  width: 490px;
+  height: 360px;
+  border-radius: 1em;
+  text-align: center;
+  margin: 10px 40px 100px;
+  background-color: #1d232d;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+div.secondsect a {
+  display: block;
+  font-size: 28px;
+  color: aliceblue;
+  padding: 40px 0 20px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  pointer-events: none;
+  cursor: default;
+}
+div.secondsect p {
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: lighter;
+}
+div.secondsect li:nth-of-type(1) {
+  background-image: url(/images/sortiment.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+}
+div.secondsect li:nth-of-type(2) {
+  background-image: url(/images/gitarrbygg.png);
+  box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+}
+div.secondsect li:nth-of-type(3) {
+  background-image: url(/images/kontakta.png);
+  box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+}
+div.secondsect button {
+  cursor: pointer;
+  padding: 0.6em;
+  margin: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgb(255, 217, 0);
+  color: #222121;
 }
 
 body {

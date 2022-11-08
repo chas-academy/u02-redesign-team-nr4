@@ -17,7 +17,7 @@ div.title{
     }
 
     p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 50%;
         height: 20px;
         padding: 3px;
@@ -27,34 +27,35 @@ div.title{
         padding-left: 100px;
     }
 }
-//
+//Rubrik och underrubrik
 
 //Bild och Rubrik med Text
 div.topsect img{
-    
     box-sizing: border-box;
     position: absolute;
     width: 796px;
     height: 458px;
     left: 154px;
-    top: 420px;
+    top: 400px;
+    border: solid $dark;
 }
 
 div.topsect h3{
         position: absolute;
-        width: 309px;
+        width: 709px;
         height: 42px;
         left: 1034px;
-        top: 439px;
+        top: 409px;
         font-style: italic;
         font-size: 20px;
         line-height: 34px;
         border-bottom: solid black 2px;
         display: inline-block;
+        text-align: center;
         
     }
     
-div.topsect  p{
+div.topsect p{
         position: absolute;
         width: 741px;
         height: 717px;
@@ -62,27 +63,94 @@ div.topsect  p{
         top: 526px;
         font-style: normal;
         font-size: 13px;
-        line-height: 40px;
+        line-height: 25px;
         /* or 123% */
-        letter-spacing: 0.1em;
+        
     }
-//
+//Bild och Rubrik med Text
 
-//VAD VI GÖR
-div.secondsect{
+//VAD-VI-GÖR sektionen
+div.secondsect {
     text-align: center;
 
-    h3{
-    width: 100%; 
-   border-bottom: 2px solid #000; 
+    h3{         //Title & Lines
+    width: 90%; 
+   border-bottom: 3px solid #000; 
    line-height: 0.1em;
-   margin: 650px 0 90px; 
-   font-size: 20px;
-
+   margin: 650px 60px 70px; 
+   font-size: 26px;
+   font-style: italic;
+   text-transform: capitalize;
     }
 
-    h3 span{
+    h3 span{       //Lines
     background:#fff; 
     padding:  90px;
     }
-}
+
+    ul{  //Containers
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 50px 100px;
+    flex-wrap: wrap;
+    }
+
+    li {
+        width: 490px;
+        height: 360px;
+        border-radius: 1em;
+        text-align: center;
+        margin: 10px 40px 100px;
+        background-color: #1d232d;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    
+      a {
+        display: block;
+        font-size: 28px;
+        color: aliceblue;
+        padding: 40px 0 20px;
+        border-bottom: 2px solid white;
+        display: inline-block;
+        pointer-events: none; //Not clickable
+        cursor: default;      //Not clickable
+      }
+      p{
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: lighter;
+      }
+
+      li:nth-of-type(1) {
+        background-image: url(/images/sortiment.jpg);
+        box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+      }
+    
+      li:nth-of-type(2) {
+        background-image: url(/images/gitarrbygg.png);
+        box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+      }
+    
+      li:nth-of-type(3) {
+        background-image: url(/images/kontakta.png);
+        box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+      }
+      button {
+        cursor: pointer;
+        padding: 0.6em;
+        margin: 50px;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 5%;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: $logocolor;
+        color: $dark;
+    }
+      
+    }
+//VAD-VI-GÖR sektionen

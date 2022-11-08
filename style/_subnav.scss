@@ -6,7 +6,7 @@
 //SUBBAR
 nav.subhead{
   background-color: $logocolor;
-padding-top: 5ch;
+  padding-top: 5ch;
 }
 
 h3.subheading{
@@ -83,6 +83,10 @@ button.OmOss {
   }
 }
 
+#fixedOmOss {
+  position: fixed;
+  z-index: 1;
+}
 
 
 //DROPDOWN MENY-Sortiment
@@ -100,10 +104,10 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
     
   }
 
-  ol.dropdown-sort li.dropdown a.dropit {
-    color: $dark;
+  ol.dropdown li.dropdown a.dropit {
     font-size: 100%;
-    line-height: 2rem;
+    line-height: 1rem;
+    color: $dark;
 
 }
 
@@ -120,13 +124,12 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
   ul.nav_linksOmOss li.OmOss ol.dropdown li.dropdown {
     clear: both;
     width: 100%;
-    color: $dark;
     border: solid;
 
   }
+  //DROPDOWN MENY-Sortiment
 
  //DROPDOWN MENY-Om Oss
-
   ul.nav_linksOmOss li.OmOss ol.dropdown-2 {
     background: $logocolor;
     opacity: 0;
@@ -141,10 +144,10 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
     
   }
 
-  ol.dropdown-sort li.dropdown a.dropit-2 {
-    color: $dark;
+  ol.dropdown-2 li.dropdown-2 a.dropit-2 {
     font-size: 100%;
-    line-height: 2rem;
+    line-height: 1rem;
+    color: $dark;
 
 
 }
@@ -161,13 +164,8 @@ ul.nav_linksOmOss li.OmOss ol.dropdown {
   ul.nav_linksOmOss li.OmOss ol.dropdown-2 li.dropdown-2 {
     clear: both;
     width: 100%;
-    color: $dark;
     border: solid;
 
   }
+   //DROPDOWN MENY-Om Oss
 
-
-#fixedOmOss {
-  position: fixed;
-  z-index: 1;
-}
