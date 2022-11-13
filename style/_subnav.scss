@@ -1,0 +1,100 @@
+@import 'colors';
+@import 'media-queries';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+//SUBBAR
+nav.subhead{
+  background-color: $logocolor;
+  padding-top: 5ch;
+}
+
+h3.subheading{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1ch;
+}
+
+
+
+
+//DROPDOWN MENY-Sortiment
+
+/*ul.nav_linksOmOss li.OmOss ol.dropdown {
+    background: $logocolor;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin: 1rem;
+    left: 850px;
+    top: 50px;
+    display: none;
+    outline: 2px solid $dark;
+    
+  }
+
+  ol.dropdown li.dropdown a.dropit {
+    font-size: 100%;
+    line-height: 1rem;
+    color: $dark;
+
+}
+
+  ul.nav_linksOmOss li.OmOss:hover > ol.dropdown,
+  ul.nav_linksOmOss li.OmOss:focus > ol.dropdown,
+  ul.nav_lingsOmOss li.OmOss ol.dropdown:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+
+  }
+
+ 
+  ul.nav_linksOmOss li.OmOss ol.dropdown li.dropdown {
+    clear: both;
+    width: 100%;
+    border: solid;
+
+  }
+  //DROPDOWN MENY-Sortiment
+
+ //DROPDOWN MENY-Om Oss
+  ul.nav_linksOmOss li.OmOss ol.dropdown-2 {
+    background: $logocolor;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin: 1rem;
+    left: 950px;
+    top: 50px;
+    display: none;
+    outline: 2px solid $dark;
+    
+    
+  }
+
+  ol.dropdown-2 li.dropdown-2 a.dropit-2 {
+    font-size: 100%;
+    line-height: 1rem;
+    color: $dark;
+
+
+}
+
+  ul.nav_linksOmOss li.OmOss:hover > ol.dropdown-2,
+  ul.nav_linksOmOss li.OmOss:focus > ol.dropdown-2,
+  ul.nav_lingsOmOss li.OmOss ol.dropdown-2:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+
+  }
+  
+  ul.nav_linksOmOss li.OmOss ol.dropdown-2 li.dropdown-2 {
+    clear: both;
+    width: 100%;
+    border: solid;
+
+  }
+   //DROPDOWN MENY-Om Oss*/
+
