@@ -80,6 +80,24 @@ footer {
   bottom: 0;
   height: 100px;
 }
+footer div.footer-links {
+  display: flex;
+  justify-content: center;
+  background: #323b40;
+  margin-bottom: -35px;
+  margin-left: 20px;
+}
+footer div.footer-links a {
+  color: rgb(255, 217, 0);
+  font-size: small;
+  padding: 7px;
+}
+footer div.footer-links a:visited {
+  color: #fdbc40;
+}
+footer div.footer-links a:hover {
+  text-decoration: underline;
+}
 footer div.social-media-links {
   display: flex;
   justify-content: center;
@@ -481,7 +499,25 @@ body {
   text-decoration: none;
 }
 
-.page-button {
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 2em;
+  padding-bottom: 10em;
+}
+.content .products {
+  display: flex;
+  flex-direction: column;
+}
+.content .products .page-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.content .products .page-nav .page-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -489,56 +525,40 @@ body {
   border-radius: 50%;
   width: 2.5em;
   height: 2.5em;
-  margin-left: 10vw;
   padding: 0;
   font-size: 16px;
+  margin-top: 0.3em;
 }
-
-.page-nav {
+.content .products .page-nav ul {
   display: flex;
-  flex-wrap: wrap;
-  padding-top: 2em;
-  width: 45vw;
-  padding: 0;
-  margin: 0;
-  padding-left: 10vw;
-}
-.page-nav ul {
-  display: flex;
-  justify-content: space-between;
   flex-direction: row;
   list-style: none;
+  flex-wrap: wrap;
 }
-.page-nav ul li #selected {
+.content .products .page-nav ul li #selected {
   background-color: #222121;
   color: rgb(255, 217, 0);
 }
-.page-nav ul li a {
+.content .products .page-nav ul li a {
   margin-left: 1em;
   margin-right: 1em;
 }
-.page-nav ul li a:visited {
+.content .products .page-nav ul li a:visited {
   color: black;
 }
-.page-nav ul li #next {
-  margin-left: 2em;
-}
-.page-nav ul li #previous {
-  margin-right: 2em;
-}
-
-.product-list-info {
+.content .products .product-list-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 1em;
+  align-items: center;
+  margin-bottom: 1em;
 }
-.product-list-info .product-quantity-info {
+.content .products .product-list-info .product-quantity-info {
   margin-top: 2em;
   margin-left: 3em;
   font-weight: lighter;
 }
-.product-list-info select {
+.content .products .product-list-info select {
   font-family: "Poppins";
   border: 0;
   padding: 0.5em;
@@ -546,25 +566,49 @@ body {
   background-color: #222121;
   color: white;
   text-align: center;
-  margin-right: 35vw;
+  margin-right: 5vw;
 }
-
-.content {
-  display: flex;
-  flex-direction: row;
-  margin-left: 5em;
-  margin-right: 5em;
-}
-.content .products {
-  flex: 2;
-  width: 100%;
-  height: 100%;
-  padding-top: 3em;
-  padding-bottom: 10em;
+.content .products .product-cards {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: left;
+}
+.content .products .product-cards .product-card {
+  margin: 1em 2em 2em 2em;
+  display: flex;
+  max-height: 15em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .products .product-cards .product-card img {
+  max-width: 4em;
+}
+.content .products .product-cards .product-card h3 {
+  margin-top: 0.3em;
+  font-size: 1em;
+}
+.content .products .product-cards .product-card p {
+  margin-top: 0.3em;
+  margin-left: 74%;
+  margin-right: 1%;
+  width: 25%;
+  font-size: 1em;
+  font-weight: lighter;
+}
+.content .products .product-cards .product-card a {
+  margin-top: 0.7em;
+}
+.content .products .product-cards .product-card button {
+  cursor: pointer;
+  border: 0;
+  padding: 0.3em;
+  font-weight: lighter;
+  border-radius: 0%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #222121;
+  color: white;
 }
 .content aside {
   background-color: #f7f7f7;
@@ -578,7 +622,7 @@ body {
   width: 100%;
   height: 100%;
   border: 1px solid black;
-  margin-bottom: 10em;
+  margin-bottom: 2em;
 }
 .content aside h2 {
   font-size: 2em;
@@ -620,48 +664,15 @@ body {
   margin: 0;
 }
 
-.product-card {
-  flex: 1;
-  margin: 5em;
-  display: flex;
-  flex-direction: column;
-  min-width: 10em;
-  min-height: 15em;
-  max-height: 15em;
-  max-width: 10em;
-  justify-content: center;
-  align-items: center;
+@media screen and (min-width: 650px) {
+  .content {
+    flex-direction: row;
+  }
+  .page-nav ul li a {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
 }
-.product-card img {
-  height: 60%;
-  width: 40%;
-}
-.product-card h3 {
-  margin-top: 0.3em;
-  font-size: 1em;
-}
-.product-card p {
-  margin-top: 0.3em;
-  margin-left: 74%;
-  margin-right: 1%;
-  width: 25%;
-  font-size: 1em;
-  font-weight: lighter;
-}
-.product-card a {
-  margin-top: 0.7em;
-}
-.product-card button {
-  cursor: pointer;
-  border: 0;
-  padding: 0.3em;
-  font-weight: lighter;
-  border-radius: 0%;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  background-color: #222121;
-  color: white;
-}
-
 * {
   box-sizing: border-box;
   font-family: "Poppins";

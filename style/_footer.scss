@@ -30,6 +30,28 @@ footer {
   bottom: 0;
   height: 100px;
 
+  div.footer-links {
+    display: flex;
+    justify-content: center;
+    background: $rhino;
+    margin-bottom: -35px;
+    margin-left: 20px;
+    
+    a { 
+    color: $logocolor;
+    font-size: small;
+    padding: 7px;
+    }
+    
+    a:visited {
+        color: $amber;
+      }
+
+      a:hover {
+        text-decoration: underline;
+    }
+  }
+
 
   div.social-media-links {
     display: flex;
