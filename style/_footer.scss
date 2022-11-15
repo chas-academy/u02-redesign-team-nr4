@@ -45,10 +45,12 @@ footer {
     
     a:visited {
         color: $amber;
+        text-decoration: underline;
       }
 
       a:hover {
         text-decoration: underline;
+        font-size: medium;
     }
   }
 

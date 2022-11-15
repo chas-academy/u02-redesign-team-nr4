@@ -94,9 +94,11 @@ footer div.footer-links a {
 }
 footer div.footer-links a:visited {
   color: #fdbc40;
+  text-decoration: underline;
 }
 footer div.footer-links a:hover {
   text-decoration: underline;
+  font-size: medium;
 }
 footer div.social-media-links {
   display: flex;
