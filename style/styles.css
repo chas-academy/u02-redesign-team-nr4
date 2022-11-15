@@ -386,11 +386,10 @@ div.title p {
 div.topsect img {
   box-sizing: border-box;
   position: absolute;
-  width: 796px;
+  width: 696px;
   height: 458px;
   left: 154px;
   top: 400px;
-  border: solid #222121;
 }
 
 div.topsect h3 {
@@ -438,8 +437,7 @@ div.secondsect h3 {
   border-bottom: 3px solid #000;
   line-height: 0.1em;
   margin: 650px 60px 70px;
-  font-size: 26px;
-  font-style: italic;
+  font-size: 29px;
   text-transform: capitalize;
 }
 div.secondsect h3 span {
