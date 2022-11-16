@@ -1,3 +1,5 @@
+//Topprubriken med text
+
 div.toptitle{
     text-align: center;
 
@@ -10,9 +12,105 @@ div.toptitle{
         
     }
 
+    
+    p.txtleft{
+        position: absolute;
+        width: 841px;
+        left: 136px;
+        top: 426px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    p.txtright{
+        position: absolute;
+        width: 841px;
+        left: 1036px;
+        top: 466px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 29px;
+        padding: 1%;
+    }
+}
+//Topprubriken med text
+
+
+.about-container{
+    position: relative;
+    height: 1200px;
+    width: 1470px;
+    margin-left: 250px;
+    margin-top: 690px;
+    background-color: $logocolor;
+    border: solid 2px;
+
+    img{
+        position: absolute;
+        left: 15%;
+        top: 13px;
+        width: 1030px;
+        height: 550px;
+        border: solid 2px;
+    }
+
     p{
-        font-size: 17px;
-        line-height: 180%;
-        padding: 30px;
+        position: absolute;
+        top: 47%;
+        line-height: 100%;
+        font-style: italic;
+        width: 70%;
+        left: 15%;
+        font-size: 14px;
+        
+    }
+}
+
+#title-left {
+    position: relative;
+    margin-top: 55%;
+    margin-right: 50%;
+    
+    h2{
+        position: absolute;
+        font-size: 27px;
+        top: -230px;
+    }
+
+    p{
+        position: absolute;
+        line-height: 110%;
+        font-style: normal;
+        width: 80%;
+        left: 15%;
+        font-size: 18px;
+        padding-bottom: 230px;
+        margin-top: -95px;
+        
+    }
+}
+
+#title-right {
+    position: relative;
+    margin-top: 55%;
+    margin-left: 50%;
+    
+    h2{
+        position: absolute;
+        font-size: 27px;
+        top: -210px;
+    }
+
+    p{
+        position: absolute;
+        line-height: 100%;
+        font-style: normal;
+        width: 70%;
+        left: 10%;
+        font-size: 18px;
+        padding-bottom: 230px;
+        margin-top: -95px;
+        
     }
 }
