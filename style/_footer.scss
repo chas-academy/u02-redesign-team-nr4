@@ -9,51 +9,58 @@ $amber: #fdbc40;
 $green: #34c748;
 $offWhite: #e9eaea;
 
-   
-   .social-media {
-      display: flex;
-      flex-direction: row;
-      height: 50px;
-      margin-top: 20px;
-      background-color: $rhino;
-      align-items: center;
-      justify-content: center;
-      
-      i {
-        color: $logocolor;
-        padding: 40px;
-        margin-top: 20px;
-        font-size: 30px;
-      }
-   }  
 
-    .links {
-      display: flex;
-      flex-direction: row;
-      height: 50px;
-      align-items: center;
-      justify-content: center;
-      background-color: $rhino;
-      
-    a {
-        color: $logocolor;
-        font-size: small;
-        padding: 7px;     
-    }
-  
-    a:visited {
-      color: $amber;
-      text-decoration: underline;
-    }
-  
-    a:hover {
-      text-decoration: underline;
-      font-size: medium;
-    }
+.social-media {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: $rhino;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    color: $logocolor;
+    padding: 40px;
+    margin-top: 20px;
+    font-size: 30px;
   }
-    
+}
 
-   
+.links {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: $rhino;
+
+  a {
+    color: $logocolor;
+    font-size: small;
+    padding: 7px;
+  }
+
+  a:visited {
+    color: $amber;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 433px) {
+  .social-media {
+    scale: 0.6;
+  }
+
+  .footer {
+    background-color: $rhino;
+  }
+}
+
 /*GAMLA FOOTERN*/
 
 /*footer {
