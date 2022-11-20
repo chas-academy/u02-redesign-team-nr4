@@ -1,3 +1,6 @@
+# WIREFRAME:
+https://www.figma.com/file/dFRVSdzRQvHdNBUA6H9cPN/u02?node-id=0%3A1&t=nkPsn8TqbRoc6JqA-1
+
 ### Mötesprotokoll 20/10/22
 
 Vi diskuterar hur vi ska starta upp projektet, och kommer överens om att intervjuer med potentiella användare borde komma först.
