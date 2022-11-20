@@ -29,7 +29,7 @@ Vi kommer överens att använda bilden som ligger upplagd i issues som inspo fö
 Utdelning av uppgifter: 
 * Vincent – Projektleder<br> 
 * Maia – Personas & protokollskrivning<br> 
-* Neji – Designskiss Figma<br> 
+* Neji – Wireframe Figma<br> 
 * Samme – Börja med HTML
 
 Möte igen imorgon 01/11/22
@@ -44,13 +44,9 @@ Vi går igenom det som är klart med wireframen. Det som vi kommer överens om �
 
 
 * Ta bort bloggen och rescensionerna.
-
 * Footern ska enbart ha sociala medier-ikoner; Facebook, Instagram och Spotify.
-
 * Vi ska behålla Google Maps i kontaktrutorna tillsammans med adresser och mailadresser.
-
 * Prova att vinkla upp Jam-loggan så den blir rak, för att se om det ser bättre ut.
-
 * I naven ska butikens/rubrik 1's meny även innehålla tjänster, medan rubrik 2 blir enbart About.
 
 Alla bör skapa issues med uppgifterna som de håller på med, så att alla enkelt kan se vad alla gör.
