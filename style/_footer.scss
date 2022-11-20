@@ -9,26 +9,104 @@ $amber: #fdbc40;
 $green: #34c748;
 $offWhite: #e9eaea;
 
-footer {
-  /*   position: relative;
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  background-color: $rhino;
+  align-items: center;
+  justify-content: center;
+
+  i {
+    color: $logocolor;
+    padding: 40px;
+    margin-top: 0px;
+    font-size: 30px;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: $rhino;
+
+  a {
+    color: $logocolor;
+    font-size: small;
+    padding: 7px;
+  }
+
+  a:visited {
+    color: $amber;
+    text-decoration: underline;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 433px) {
+  .social-media {
+    scale: 0.6;
+  }
+
+  .footer {
+    background-color: $rhino;
+  }
+}
+
+/*GAMLA FOOTERN*/
+
+/*footer {
+  position: relative;
   width: 210%;
   height: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   /*   bottom: 8%;
   padding-left: 10vw;
   padding-right: 10vw;
   margin-top: auto;
   right: 0%;
   z-index: 3; 
-  left: -5%;*/
+  left: -5%;
   position: fixed;
   width: 100%;
   background-color: black;
   bottom: 0;
   height: 100px;
+
+  /*div.footer-links {
+    display: flex;
+    justify-content: center;
+    background: $rhino;
+    margin-bottom: -35px;
+    margin-left: 20px;
+    
+    a { 
+    color: $logocolor;
+    font-size: small;
+    padding: 7px;
+    }
+    
+    a:visited {
+        color: $amber;
+        text-decoration: underline;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        font-size: medium;
+    }
+  }
 
 
   div.social-media-links {
@@ -110,4 +188,4 @@ footer {
       }
     }
   }
-}
+}*/

@@ -1,8 +1,15 @@
 @import 'navbar';
 @import 'footer';
 @import 'card';
+@import 'subnav';
+@import 'såfunkardet';
+@import 'sortiment';
+@import 'omoss';
+@import 'gitarrbygg';
+@import 'studio';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@import 'kontaktaoss';
+@import 'produktsida';
 * {
   box-sizing: border-box;
   font-family: 'Poppins';
@@ -25,7 +32,8 @@ body {
   margin: 0;
   padding: 0;
 }
-
+//Rubrik och underrubrik
+//Rubrik och underrubrik
 li,
 a,
 button {

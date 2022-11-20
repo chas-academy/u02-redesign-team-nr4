@@ -1,0 +1,106 @@
+@import 'colors';
+.locations{
+  background-color: $logocolor;
+  display: flex;
+  justify-content:space-around;
+  padding: 2em 0;
+  flex-wrap: wrap;
+  li{
+    padding-top: 1em;
+  }
+}
+.spacing{
+  padding-top: 2em;
+  background-color: $logocolor;
+  h1 {
+   text-align: center;
+   padding-top: 15px;
+   font-size: 20px;
+   height: 40px;
+  }
+}
+.contact-section{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  iframe{
+    left:0;
+    top:5;
+    height:114%;
+    width:100%;
+    position:absolute;
+  }
+
+}
+@media (max-width:590px){
+  .locations{
+    justify-content:start;
+    ul{
+      padding: 2em;
+    }
+  }
+}
+
+@media (max-width:525px){
+  .locations{
+    justify-content:center;
+  }
+}
+.signup{
+&__container {
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+  block-size: 12%;
+  margin-top: auto;
+  margin-right: auto;
+  padding-top: 8vh;
+  padding-bottom: 4%;
+
+  &-left {
+
+  &-h1 {
+    width: 60px;
+    height: 50px;
+    padding: 15px;
+  }
+
+&-h2 {
+  width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+}
+  
+  
+  input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    resize: vertical;
+  }
+  input[type=submit] {
+    display:flex;
+    background: linear-gradient(180deg, rgb(239, 219, 4) 0%, rgb(229, 255, 0) 80%);;
+    color: black;
+    padding: 20px 25px;
+    margin-bottom: 5%;
+    margin-left: 33%;
+    border: none;
+    border-radius: 5px;
+    align-content: center;
+  }
+  
+  input[type=submit]:hover {
+    background: black;
+    color: white;
+  }
+}
+}

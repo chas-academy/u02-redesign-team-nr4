@@ -1,0 +1,45 @@
+//Topprubriken med text
+
+
+//Topprubriken med text
+.widechamp{
+    margin: 0 auto;
+    p{
+        max-width: 40em;
+        line-height: 1.5em;
+        margin: 0 1em;
+    }
+}
+.toptitle{
+    h2{
+        margin-top: 0;
+    }
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5em;
+    background-color: $logocolor;
+    border: solid 2px;
+
+    h3 {
+        margin: 1em;
+        font-size: 1.5em;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        div {
+            margin: 1em;
+        }
+    }
+    
+
+}

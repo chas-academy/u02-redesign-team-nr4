@@ -1,0 +1,193 @@
+
+body{
+    font-family: "Poppins";
+}
+.topsect{
+  display: flex;
+  justify-content: center;
+  p{
+    max-width: 30em;
+  }
+  div{
+    padding: 3em;
+    h3{
+      font-size: 2em;
+      padding-bottom: 1em;
+    }
+    img{
+      width: 40vw;
+      max-width: 500px;
+    }
+    button {
+      cursor:pointer;
+      margin-top: 1em;
+      background-color: $dark;
+      color: white;
+      border: none;
+      border-radius: 1em;
+      padding: 10px 2em;
+  }
+
+  button:hover {
+      transition: ease-in-out .6s;
+      color: $logocolor;
+      background-color: rgb(10, 10, 10);
+  }
+  }
+}
+
+div.title{
+  p{
+    padding: 2em 0;
+  }
+  text-align: center;
+}
+
+//Bild och Rubrik med Text
+// div.topsect img{
+//     box-sizing: border-box;
+//     position: absolute;
+//     width: 696px;
+//     height: 458px;
+//     left: 154px;
+//     top: 400px;
+// }
+
+// div.topsect h3{
+//         position: absolute;
+//         width: 709px;
+//         height: 42px;
+//         left: 1034px;
+//         top: 409px;
+//         font-size: 30px;
+//         line-height: 34px;
+//         border-bottom: solid black 2px;
+//         display: inline-block;
+//         text-align: center;
+        
+//     }
+    
+// div.topsect p{
+//         position: absolute;
+//         width: 741px;
+//         height: 717px;
+//         left: 1036px;
+//         top: 486px;
+//         font-style: normal;
+//         font-size: 13px;
+//         line-height: 25px;
+        
+//         /* or 123% */
+        
+//     }
+
+//     div.topsect button{
+//        cursor: pointer;
+//         padding: 0.6em;
+//         margin: 0px 50px;
+//         font-size: 17px;
+//         font-weight: 600;
+//         border-radius: 5%;
+//         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//         background-color: $dark;
+//         color: $logocolor;
+//     }
+
+//Bild och Rubrik med Text
+
+//VAD VI GÖR
+div.secondsect {
+  padding-top: 3em;
+  text-align: center;
+
+  h3 span{       //Lines
+  padding:  90px;
+  }
+
+  ul{  //Containers
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  max-width: 40em;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1em;
+    margin: 2em 4em;
+    background-color: #1d232d;
+    }
+  
+    h4 {
+      display: block;
+      font-size: 28px;
+      color: aliceblue;
+      padding: 40px 0 20px;
+      border-bottom: 2px solid white;
+      display: inline-block;
+      pointer-events: none; //Not clickable
+      cursor: default;      //Not clickable
+    }
+    p{
+      color: white;
+      padding: 20px;
+      font-size: 20px;
+      font-style: italic;
+      font-weight: lighter;
+    }
+
+    li:nth-of-type(1) {
+      background-image: url(/images/sortiment.jpg);
+      box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+    }
+  
+    li:nth-of-type(2) {
+      background-image: url(/images/gitarrbygg.png);
+      box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+    }
+  
+    li:nth-of-type(3) {
+      background-image: url(/images/kontakta.png);
+      box-shadow: inset 0 0 0 2000px rgba(5, 5, 5, 0.671);
+    }
+    a.button {
+      cursor: pointer;
+      padding: 0.6em;
+      margin: 50px;
+      font-size: 17px;
+      font-weight: 600;
+      border-radius: 5%;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      background-color: $logocolor;
+      color: $dark;
+  }
+    
+  }
+//VAD-VI-GÖR sektionen
+
+@media (max-width:425px) {
+  div.secondsect {
+    li {
+      min-width: 100vw;
+      margin: 2em 0em;
+      }
+      
+    }
+}
+@media (max-width:900px) {
+  .topsect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div{
+      padding: 2em;
+      img{
+        width: 80vw;
+      }
+    }
+  }
+}
