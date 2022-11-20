@@ -1,6 +1,6 @@
 # GRUPP 4 - U02
 
-## DESIGNSKISS:
+## WIREFRAME:
 https://www.figma.com/file/dFRVSdzRQvHdNBUA6H9cPN/u02?node-id=0%3A1&t=NUseugHvZh3dZpEg-0
 ___
 
